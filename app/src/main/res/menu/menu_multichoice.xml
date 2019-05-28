@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_multichoice_addToAlbum"
+        android:title="Add to album"
+        android:icon="@android:drawable/ic_menu_gallery"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/menu_multichoice_del"
+        android:title="Delete"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_delete"/>
+
+
+</menu>
